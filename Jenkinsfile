@@ -2,12 +2,13 @@ pipeline {
   agent any
 
   environment {
-    AWS_DEFAULT_REGION = 'ap-south-1'         // your AWS region
-    ECR_REPO          = 'devops-task-repo'    // your ECR repo name
-    CLUSTER_NAME      = 'devops-task-cluster' // your ECS cluster
-    SERVICE_NAME      = 'devops-task-svc'     // your ECS service
-    IMAGE_TAG         = "${env.BRANCH_NAME}-${env.BUILD_NUMBER}"
-  }
+  AWS_DEFAULT_REGION = 'ap-south-1'
+  ECR_REPO          = 'devops-task-repo'
+  CLUSTER_NAME      = 'devops-task-cluster'
+  SERVICE_NAME      = 'devops-task-svc'
+  IMAGE_TAG         = "dev-${env.BUILD_NUMBER}"   
+}
+
 
   stages {
     stage('Build') {
