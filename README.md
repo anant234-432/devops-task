@@ -39,17 +39,17 @@ It serves a single logo image (`logoswayatt.png`) when accessed in the browser.
 
 
 ## Project Structure
-├── app.js              # Application code
-├── logoswayatt.png     # Logo image
-├── Dockerfile          # Docker container config
-├── Jenkinsfile         # CI/CD pipeline definition
-├── package.json        # Node.js dependencies
-├── package-lock.json
-├── .gitignore
-├── .dockerignore
-├── README.md           # Documentation
-├── deployment-proof/   # Proof of deployment (URL or screenshots)
-└── terraform/          # Infrastructure as Code (Terraform configs)
+- ├── app.js              # Application code
+- ├── logoswayatt.png     # Logo image
+- ├── Dockerfile          # Docker container config
+- ├── Jenkinsfile         # CI/CD pipeline definition
+- ├── package.json        # Node.js dependencies
+- ├── package-lock.json
+- ├── .gitignore
+- ├── .dockerignore
+- ├── README.md           # Documentation
+- ├── deployment-proof/   # Proof of deployment (URL or screenshots)
+- └── terraform/          # Infrastructure as Code (Terraform configs)
 
 
 ## Tools & Services Used
