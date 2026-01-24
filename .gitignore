@@ -1,1 +1,18 @@
 node_modules
+# Terraform cache/state
+.terraform/
+terraform/providers/
+*.tfstate
+*.tfstate.*
+
+
+# Terraform
+.terraform/
+terraform/providers/
+*.tfstate
+*.tfstate.*
+crash.log
+*.tfvars
+*.tfvars.json
+override.tf
+override.tf.json
